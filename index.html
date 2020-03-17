@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h2>Simple Calculator</h2>
+    <div class="bodyCalcu">
+        <div class="calcuForm">
+
+            <div class="inputNum">
+                <input type="text" class="inputStyle" id="resultInput" name="InputNumber" value="" placeholder="NUMBER HERE">
+            </div>
+            
+            <div class="first_row">
+                <button id="addition" value="+" onclick="dis('+')" class="buttonStyle">+ </button>
+                <button id="subtraction" value="-" onclick="dis('-')" class="buttonStyle">- </button>
+                <button id="multiplication" value="*" onclick="dis('*')" class="buttonStyle">* </button>
+                <button id="division" value="/" onclick="dis('/')" class="buttonStyle">/ </button>
+            </div>
+
+            <div class="second_row">
+                <button id="squared" value="^2" onclick="dis('**2')" class="buttonStyle">^2 </button>
+                
+                <button id="modulo" value="%" onclick="dis('%')" class="buttonStyle">% </button>
+                <button id="equal" onclick="eq()" class="buttonStyle">= </button>
+                <button id="clear" onclick="clearField()" class="buttonStyle">c</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
