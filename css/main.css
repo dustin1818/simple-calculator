@@ -1,0 +1,53 @@
+body{
+    background-color:lightgray
+}
+h2{
+    text-align: center;
+}
+.bodyCalcu{
+    background-color: lightsteelblue;
+        width: 400px;
+        height: 320px;
+        margin: 0 auto;
+    }
+
+.buttonStyle{
+    margin-top:40px;
+    margin-left:15px;
+    padding:28px;
+    position: relative;
+    background-color: lemonchiffon;
+    font-weight: 500;
+    font-size: 20px;
+}
+.inputStyle{
+    width: 340px;
+    height: 30px;
+    text-align:center;
+    margin-left:27px;
+    font-size: 30px;
+    position: relative;
+    
+    letter-spacing: 7px;
+}
+.first_row{
+    padding-left: 5px;
+}
+
+.first_row .buttonStyle{
+    padding:31px;
+    position: relative;
+}
+
+.second_row{
+    padding-left: 3px;
+}
+
+.second_row .buttonStyle{
+    padding:27.5px;
+    padding-bottom: 30px;
+}
+
+
+
+
